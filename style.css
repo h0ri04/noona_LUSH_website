@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  background: url("https://weare.lush.co.kr/images/visual_info@2x.jpg") center
+    center/cover no-repeat;
+  height: 600px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+.product-card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+.product-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+.product-price {
+  color: green;
+  font-size: 1.1rem;
+}
